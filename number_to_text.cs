@@ -1,4 +1,4 @@
-tatic string EscreverExtenso(decimal valor)
+static string EscreverExtenso(decimal valor)
 {
     if (valor <= 0 | valor >= 1000000000000000)
         return "Valor não suportado pelo sistema.";
